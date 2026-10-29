@@ -17,7 +17,7 @@ Frontend only: Next.js (App Router) · TypeScript · Tailwind CSS v4 · Lucide i
 
 ## Development
 
-Requires Node.js 20.9 or newer.
+Requires Node.js 24 (pinned via `engines` so Vercel builds on the same major version).
 
 ```bash
 npm install
