@@ -29,7 +29,7 @@ npm run build && npm start
 
 ## Deploying to Vercel
 
-1. Import the GitHub repository in Vercel. The framework (Next.js) and the build settings are detected automatically, so no `vercel.json` is needed.
+1. Import the GitHub repository in Vercel. [`vercel.json`](vercel.json) pins the framework to Next.js, so the build works even if the project's Framework Preset is set to something else.
 2. Optional: set the `NEXT_PUBLIC_SITE_URL` environment variable to the final domain, such as `https://www.example.com`. If it's unset, the site uses Vercel's production domain for canonical URLs, Open Graph tags, `robots.txt` and `sitemap.xml`.
 3. Deploy. Every page is statically prerendered.
 
